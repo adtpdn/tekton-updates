@@ -5,7 +5,7 @@
 		{
 			"version": "2.1.5",
 			"date": "2026-04-20",
-			"pck_url": "https://raw.githubusercontent.com/adtpdn/tekton-updates/main/patch.pck",
+			"pck_url": "https://raw.githubusercontent.com/adtpdn/tekton-updates/main/latest/patch.pck",
 			"changelog": [
 				"Initial release of the new patching system.",
 				"Added boot screen paginator."
