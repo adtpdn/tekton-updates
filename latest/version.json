@@ -1,7 +1,19 @@
 {
-	"latest_version": "2.1.6",
+	"latest_version": "2.1.7",
 	"minimum_app_version": "2.1.0",
 	"releases": [
+		{
+			"version": "2.1.7",
+			"date": "2026-04-24",
+			"pck_url": "https://raw.githubusercontent.com/adtpdn/tekton-updates/main/latest/patch.pck",
+			"pck_size": 0,
+			"changelog": [
+				"Upgraded Gacha interface with dynamic CSGO-style sequential reveal animations",
+				"Added an animation skip button for faster 10x multi-pulls",
+				"Fixed a bug where opening the Craft menu from Gacha would show an empty screen",
+				"Stabilized login flow by resetting connection states after failed auto-logins"
+			]
+		},
 		{
 			"version": "2.1.6",
 			"date": "2026-04-24",
@@ -9,7 +21,7 @@
 			"pck_size": 0,
 			"changelog": [
 				"Added Gacha system with Star and Gold banners (1x & 10x pulls)",
-				"Fragment Craft system — collect drops to craft exclusive skins",
+				"Fragment Craft system \u00e2\u20ac\u201d collect drops to craft exclusive skins",
 				"Fixed boot screen stuck on \"Checking versions...\""
 			]
 		},
