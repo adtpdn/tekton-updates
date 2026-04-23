@@ -1,11 +1,23 @@
 {
-	"latest_version": "2.1.5",
+	"latest_version": "2.1.6",
 	"minimum_app_version": "2.1.0",
 	"releases": [
+		{
+			"version": "2.1.6",
+			"date": "2026-04-23",
+			"pck_url": "https://raw.githubusercontent.com/adtpdn/tekton-updates/main/latest/patch.pck",
+			"pck_size": 0,
+			"changelog": [
+				"Added Gacha system with Star and Gold banners (1x & 10x pulls)",
+				"Fragment Craft system \u2014 collect drops to craft exclusive skins",
+				"Fixed boot screen stuck on \"Checking versions...\""
+			]
+		},
 		{
 			"version": "2.1.5",
 			"date": "2026-04-20",
 			"pck_url": "https://raw.githubusercontent.com/adtpdn/tekton-updates/main/latest/patch.pck",
+			"pck_size": 0,
 			"changelog": [
 				"Initial release of the new patching system.",
 				"Added boot screen paginator."
