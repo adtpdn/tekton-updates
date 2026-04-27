@@ -1,7 +1,20 @@
 {
-	"latest_version": "2.1.7",
+	"latest_version": "2.1.8",
 	"minimum_app_version": "2.1.0",
 	"releases": [
+		{
+			"version": "2.1.8",
+			"date": "2026-04-28",
+			"pck_url": "https://raw.githubusercontent.com/adtpdn/tekton-updates/main/latest/patch.pck",
+			"pck_size": 0,
+			"changelog": [
+				"Fixed Tekton rotation and tile spawning animation timing",
+				"Implemented 1-tile perimeter buffer for all spawn areas to prevent stuck gaps",
+				"Tekton NPCs now spawn in corner zones; players spawn in middle zones",
+				"Fixed outline shader being lost when applying skin material overrides",
+				"Added Unstuck button to pause menu to teleport stuck players to a safe area"
+			]
+		},
 		{
 			"version": "2.1.7",
 			"date": "2026-04-24",
