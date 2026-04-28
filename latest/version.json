@@ -1,16 +1,39 @@
 {
-	"latest_version": "2.1.8",
+	"latest_version": "2.1.9",
 	"minimum_app_version": "2.1.0",
 	"releases": [
 		{
-			"version": "2.1.8",
-			"date": "2026-04-28",
+			"version": "2.1.9",
+			"date": "2026-04-29",
 			"pck_url": "https://raw.githubusercontent.com/adtpdn/tekton-updates/main/latest/patch.pck",
 			"pck_size": 0,
 			"changelog": [
-				"Fixed Tekton rotation and tile spawning animation timing",
-				"Implemented 1-tile perimeter buffer for all spawn areas to prevent stuck gaps",
-				"Tekton NPCs now spawn in corner zones; players spawn in middle zones",
+				"Added friend system with friend list, direct messaging, and lobby invitations",
+				"Improved Steam login support",
+				"Added Social Panel with Friends, Global Chat, and Direct Message tabs",
+				"Added ability to add/remove friends from lobby player slots",
+				"Added Invite Friends button to lobby",
+				"Added lobby invite notifications",
+				"Fixed account type display in profile panel"
+			]
+		},
+		{
+			"version": "2.1.8",
+			"date": "2026-04-24",
+			"pck_url": "https://raw.githubusercontent.com/adtpdn/tekton-updates/main/latest/patch.pck",
+			"pck_size": 0,
+			"changelog": [
+				"Optimized network synchronization with deterministic tile slots and granular board sync",
+				"Removed lag-sensitive server adjacency checks to fix \"disappearing tiles\" on high-latency connections",
+				"Fixed \"No multiplayer peer assigned\" crash during host disconnection and cleanup",
+				"Finalized AP system removal, transitioning to a fully real-time authoritative model",
+				"Restored bot mission completion logic",
+				"Stabilized Nakama socket cleanup during match-to-lobby transitions",
+				"Fixed Tekton not rotating toward spawning direction when throwing tiles",
+				"Fixed purple powerup tiles spawning on top of existing layer 1 tiles",
+				"Added animation delay to tile spawning to match Tekton throw animation timing",
+				"Implemented 1-tile perimeter buffer on all spawn areas to prevent edge spawning and stuck gaps",
+				"Tekton NPCs now spawn exclusively in corner zones; players spawn in middle zones",
 				"Fixed outline shader being lost when applying skin material overrides",
 				"Added Unstuck button to pause menu to teleport stuck players to a safe area"
 			]
