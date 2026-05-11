@@ -1,7 +1,41 @@
 {
-	"latest_version": "2.2.1",
+	"latest_version": "2.3.1",
 	"minimum_app_version": "2.1.0",
 	"releases": [
+		{
+			"version": "2.3.1",
+			"date": "2026-05-11",
+			"pck_url": "https://raw.githubusercontent.com/adtpdn/tekton-updates/main/latest/patch.pck",
+			"pck_size": 0,
+			"changelog": [
+				"Integrated DM tab system directly into lobby chatbox — no more fullscreen overlay",
+				"Added @username auto-suggest popup with touch/mobile support",
+				"DM messages render in shared GlobalChat RichTextLabel by active tab context",
+				"Dynamic DM tabs with (X) close button using scene-local DMTabTemplate",
+				"Incoming DMs auto-create tabs without opening Social Panel",
+				"Fixed self-DM tab creation bug",
+				"Chat timestamps updated to DD-MM-YY - HH:MM format",
+				"Added /clear command for DM (local) and Global (admin-only with server-side RPC)",
+				"Added admin_clear_global_chat server RPC to permanently delete channel messages"
+			]
+		},
+		{
+			"version": "2.3.0",
+			"date": "2026-05-06",
+			"pck_url": "https://raw.githubusercontent.com/adtpdn/tekton-updates/main/latest/patch.pck",
+			"pck_size": 0,
+			"changelog": [
+				"Fixed boot screen crash caused by TextureButton cast as Button returning nil",
+				"Routed boot screen button text through child Label nodes for TextureButton compatibility",
+				"Changed changelog bullets to BBCode table layout for proper hanging indent alignment",
+				"Fixed changelog RichTextLabel scroll by removing fit_content flag",
+				"Synced player avatar, username, leaderboard score, and rank to Room List panel",
+				"Wired Play tab mode buttons (Freemode, Stop n Go) to restored hosting logic",
+				"Wired Room tab mode buttons to filter room list by game mode",
+				"Encoded game mode prefix in room name for LAN room discovery filtering",
+				"Added game_mode field to room dictionaries in LobbyManager and NakamaManager"
+			]
+		},
 		{
 			"version": "2.2.1",
 			"date": "2026-05-01",
