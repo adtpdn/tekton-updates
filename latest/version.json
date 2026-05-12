@@ -1,7 +1,27 @@
 {
-	"latest_version": "2.3.1",
+	"latest_version": "2.3.2",
 	"minimum_app_version": "2.1.0",
 	"releases": [
+		{
+			"version": "2.3.2",
+			"date": "2026-05-12",
+			"pck_url": "https://raw.githubusercontent.com/adtpdn/tekton-updates/main/latest/patch.pck",
+			"pck_size": 0,
+			"changelog": [
+				"Integrated Mailbox UI into lobby with CanvasLayer overlay",
+				"Redesigned mailbox_panel.tscn to 3-column layout (mail list, content, rewards)",
+				"Added auto read-all and auto claim-all on mailbox open",
+				"Fixed MailboxBtn text glitch — replaced text override with MailBadge Label overlay",
+				"Admin Panel: Target user field now accepts username or user_id with Find button",
+				"Admin Panel: New Mail Manager tab to view, edit, end, and delete sent announcements",
+				"Admin Panel: Edit dialog uses DatePicker for end date and supports recipient reassignment",
+				"Server: Added admin_list_mail, admin_update_mail, admin_delete_mail_server RPCs",
+				"Server: admin_list_mail scans all users personal inboxes via storageList",
+				"Server: admin_update_mail supports moving mail between users and global",
+				"Server: Added save_mail_state RPC to persist read_ids to server",
+				"Fixed mark_as_read — now persists to Nakama inbox state instead of local-only pass"
+			]
+		},
 		{
 			"version": "2.3.1",
 			"date": "2026-05-11",
