@@ -1,7 +1,40 @@
 {
-	"latest_version": "2.3.2",
+	"latest_version": "2.3.4",
 	"minimum_app_version": "2.1.0",
 	"releases": [
+		{
+			"version": "2.3.4",
+			"date": "2026-05-15",
+			"pck_url": "https://raw.githubusercontent.com/adtpdn/tekton-updates/main/latest/patch.pck",
+			"pck_size": 0,
+			"changelog": [
+				"Modernized Gacha and Fragment Craft UI with Tekton dark theme and 4px bordered panels",
+				"Redesigned Star/Gold banner tabs with Cyan (inactive) and Dark Blue (active) styling",
+				"Replaced text balances with icon-based currency panels matching the Lobby style",
+				"Added individual fragment quantity displays (Common, Uncommon, Rare) in Craft Panel",
+				"Fixed RatesLabel text visibility in Gacha Panel (changed brown to light grey)",
+				"Updated ProfilePanel category tabs to use text labels instead of emojis",
+				"Standardized compact, fixed-width currency display logic across all sub-menus"
+			]
+		},
+		{
+			"version": "2.3.3",
+			"date": "2026-05-13",
+			"pck_url": "https://raw.githubusercontent.com/adtpdn/tekton-updates/main/latest/patch.pck",
+			"pck_size": 0,
+			"changelog": [
+				"Modernized Shop UI to match Lobby's dark theme and neutral dark-grey aesthetic",
+				"Replaced Label-based currency indicators with pill-shaped containers and high-quality gold/star textures",
+				"Integrated RichTextLabel with BBCode support for inline currency icons across all shop cards",
+				"Implemented active-state highlighting for shop tabs (white bg/dark text for selected)",
+				"Added featured banner system with sidebar support for event-based selling",
+				"Added 'Shop' tab to Admin Panel to manage featured banner slots and event labels",
+				"Standardized UI margins, button padding, and minimum sizes across shop panels",
+				"Added server-side RPCs for persistent featured banner management",
+				"Fixed missing dependency errors by clearing stale .godot cache and UID references",
+				"Implemented _populate_banners() function in shop_panel.gd"
+			]
+		},
 		{
 			"version": "2.3.2",
 			"date": "2026-05-12",
