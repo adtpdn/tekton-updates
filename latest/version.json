@@ -1,7 +1,29 @@
 {
-	"latest_version": "2.3.4",
+	"latest_version": "2.4.0",
 	"minimum_app_version": "2.1.0",
 	"releases": [
+		{
+			"version": "2.4.0",
+			"date": "2026-06-18",
+			"pck_url": "https://raw.githubusercontent.com/adtpdn/tekton-updates/main/latest/patch.pck",
+			"pck_size": 0,
+			"changelog": [
+				"Rebuilt Gauntlet game mode with new wave-based mechanics and arena redesign",
+				"Added freeze-area VFX — freeze powerup now shows visible icy floor spread",
+				"Added block-wall VFX — blocked tiles now display visible barrier effect",
+				"Added playerboard scatter VFX — Stop n Go penalty shows shake effect",
+				"Fishing Tektons in Freemode now animate both character and rod",
+				"Static Tekton turrets now face throw direction and play throw animation",
+				"Unified animation pack with original Blender bone names for smoother movement",
+				"Characters now carry with walking blend instead of sliding idle",
+				"Fixed host name showing as Guest when starting Freemode quickly",
+				"Fixed double-click match creation error on mode buttons",
+				"Fixed Tekton pickup prompt to follow custom keybind settings",
+				"Lobby area label now auto-updates when switching game modes",
+				"Fixed wrong Tekton model in Freemode static turrets",
+				"Admin Panel no longer crashes on empty server JSON responses"
+			]
+		},
 		{
 			"version": "2.3.4",
 			"date": "2026-05-15",
